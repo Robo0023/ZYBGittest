@@ -16,12 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
     
+    NSLog(@"成功了！");
+    
+    NSLog(@"前两次失败原因是密码记错了，第三次是SSHKey没配置好");
+    
+    NSLog(@"实际上在偏好设置里配好账号密码，就非常简单了");
 }
 
 @end
